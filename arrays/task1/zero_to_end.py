@@ -5,8 +5,13 @@ def zero_to_end(arr):
             arr[pos], arr[i] = arr[i], arr[pos]
             pos += 1
 
-    return arr
 
-print(zero_to_end([0, 0, 1, 0, 3, 12]))
-print(zero_to_end([0, 33, 57, 88,  60, 0, 0, 80, 99]))
-print(zero_to_end([0, 0, 0, 18, 16, 0, 0, 77, 99]))
+arr = [0, 0, 1, 0, 3, 12]
+zero_to_end(arr)
+print(arr)
+arr = [0, 33, 57, 88,  60, 0, 0, 80, 99]
+zero_to_end(arr)
+print(arr)
+arr = [0, 0, 0, 18, 16, 0, 0, 77, 99]
+zero_to_end(arr)
+print(arr)
